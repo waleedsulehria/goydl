@@ -58,7 +58,7 @@ type Info struct {
 		Ext         string      `json:"ext"`
 		FormatNote  string      `json:"format_note"`
 		Acodec      string      `json:"acodec"`
-		Abr         int         `json:"abr,omitempty"`
+		Abr         float64         `json:"abr,omitempty"`
 		Container   string      `json:"container,omitempty"`
 		FormatID    string      `json:"format_id"`
 		URL         string      `json:"url"`
